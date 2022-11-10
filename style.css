@@ -179,6 +179,9 @@ label{
     margin-bottom: 50px;
     letter-spacing: 2px;
   }
+  #check:checked ~ header .navigation a:hover{
+    background-color: aquamarine;
+  }
 
   #check:checked ~ header label .menu-btn{
     display: none;
